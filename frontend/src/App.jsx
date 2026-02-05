@@ -3,7 +3,7 @@ import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Trash2, ShieldCheck, Zap, BarChart3, Search } from 'lucide-react';
 
-const API_BASE = "http://localhost:5000/api/items";
+const API_BASE = "https://ecotrack-ai.onrender.com/api/items";
 
 function App() {
   const [items, setItems] = useState([]);
